@@ -6,7 +6,7 @@
 #    By: carloga2 <carloga2@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/17 16:33:12 by carloga2          #+#    #+#              #
-#    Updated: 2025/05/21 16:34:57 by carloga2         ###   ########.fr        #
+#    Updated: 2025/05/31 10:00:00 by carloga2         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,14 +19,13 @@ RM = rm -f
 
 # Source files
 SRCS = get_next_line.c \
-	   get_next_line_utils.c \
-		
+	   get_next_line_utils.c
 
 # Object files
 OBJS = $(SRCS:.c=.o)
 
 # Header files
-HEADER = fget_next_line.h
+HEADER = get_next_line.h
 
 # Targets
 all: $(NAME)

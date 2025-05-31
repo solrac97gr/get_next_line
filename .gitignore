@@ -1,5 +1,9 @@
-main.c
-.vscode
-DS_Store
-*.out
-*.gch
+# Ignore everything by default
+*
+
+# Only allow these specific files required for 42 project
+!get_next_line.c
+!get_next_line.h
+!get_next_line_utils.c
+!Makefile
+!.gitignore
